@@ -9,9 +9,9 @@ on:
   pull_request:
   #只运行特定分支master
     branches: [ master ]
-  schedule:
+  #schedule:
   # 定时任务，在每天的6点30填报工软
-    - cron:  "30 22 * * *"
+    #- cron:  "30 22 * * *"
       # 定时器更改时间
       # https://tool.lu/crontab/
       # https://datetime360.com/cn/utc-cst-china-time/ #UTC时间 国际协调时间+8=北京时间
